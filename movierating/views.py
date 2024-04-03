@@ -1,7 +1,11 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import generics
+from rest_framework.response import Response
+from .models import Movie
+from .serializers import MovieSerializer
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("Hello world!")
+
+class MovieListView(generics.ListAPIView):
+    queryset = Movie.objects.all().order_by("-name")
+    serializer_class = MovieSerializer
