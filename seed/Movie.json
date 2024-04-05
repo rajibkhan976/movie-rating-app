@@ -1,0 +1,32 @@
+[
+	{
+		"model": "movierating.movie",
+		"pk": 1,
+		"fields": {
+			"name": "Home Alone",
+			"genre": "Comedy",
+			"rating": "PG",
+			"release_date": "1996-04-01"
+		}
+	},
+	{
+		"model": "movierating.movie",
+		"pk": 2,
+		"fields": {
+			"name": "The Godfather",
+			"genre": "Crime",
+			"rating": "R",
+			"release_date": "1972-04-01"
+		}
+	},
+	{
+		"model": "movierating.movie",
+		"pk": 3,
+		"fields": {
+			"name": "Avengers: Endgame",
+			"genre": "Action",
+			"rating": "PG",
+			"release_date": "2019-04-01"
+		}
+	}
+]

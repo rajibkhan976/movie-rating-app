@@ -1,0 +1,42 @@
+[
+	{
+		"model": "movierating.user",
+		"pk": 1,
+		"fields": {
+			"name": "John Doe",
+			"phone": "11111111111",
+			"password": "pass1",
+			"email": "john_doe@gmail.com"
+		}
+	},
+	{
+		"model": "movierating.user",
+		"pk": 2,
+		"fields": {
+			"name": "Jane Doe",
+			"phone": "22222222222",
+			"password": "pass2",
+			"email": "jane_doe@gmail.com"
+		}
+	},
+	{
+		"model": "movierating.user",
+		"pk": 3,
+		"fields": {
+			"name": "Mark Doe",
+			"phone": "33333333333",
+			"password": "pass3",
+			"email": "mark_doe@gmail.com"
+		}
+	},
+	{
+		"model": "movierating.user",
+		"pk": 4,
+		"fields": {
+			"name": "Macy Doe",
+			"phone": "44444444444",
+			"password": "pass4",
+			"email": "macy_doe@gmail.com"
+		}
+	}
+]
