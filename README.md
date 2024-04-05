@@ -1,3 +1,4 @@
+# Project setup
 I have used python Django framework
 For storing data, I have used Postgresql
 Please create a database named movierating from pgadmin
