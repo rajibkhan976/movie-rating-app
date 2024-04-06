@@ -9,9 +9,9 @@ From myapps/settings.py chnage the db connection parameters value from line 81 t
 Run the following commands from terminal.
  - py manage.py makemigrations movierating
  - py manage.py migrate
- - python manage.py loaddata seed/User.json
- - python manage.py loaddata seed/Movie.json
- - python manage.py loaddata seed/Rating.json
+ - py manage.py loaddata seed/User.json
+ - py manage.py loaddata seed/Movie.json
+ - py manage.py loaddata seed/Rating.json
 
 Run the project from terminal with the following command
  - py manage.py runserver
